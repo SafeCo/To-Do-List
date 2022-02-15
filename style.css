@@ -1,0 +1,55 @@
+:root {
+	color: white;
+}
+
+
+.editInput{
+	border: none;
+	border-radius: 15px;
+	margin-right: 10px;
+	background-color: aquamarine;
+	transition: 2s;
+	text-align: center;
+	font-size: 20px;
+	font-family:monospace, sans-serif, serif;
+}
+
+.editInput:focus{
+	background-color: blue;
+	color: white;
+}
+
+.test{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.org-button {
+	background-color: red;
+	width: 90px;
+	border: none;
+	border-radius: 10px;
+	outline: 0;
+	font-size: 20px;
+	margin: 2px;
+	background-color: lightgray;
+	transition: 1s;
+}
+.org-button:hover {
+	transform: scale(1.05);
+}
+.todo {
+	text-align: center;
+	font-size: 20px;
+	font-family:monospace, sans-serif, serif;
+}
+
+.form{
+	text-align: center;
+}
+body{
+	background-color: black;
+}
